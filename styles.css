@@ -38,6 +38,7 @@ body {
   height: 250px;
   margin-top: 38%;
   border-radius: 50%;
+  border: 20px solid #cf66b22b;
 }
 .links {
   padding-top: 30px;
