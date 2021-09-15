@@ -1,0 +1,101 @@
+body {
+  font-family: "Karla", "Source Sans Pro", sans-serif;
+
+  margin: auto;
+  letter-spacing: 1;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 5px;
+}
+.material-icons {
+  margin-right: 10px;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.header {
+  width: 100vw;
+
+  background-color: antiquewhite;
+
+  height: 70px;
+
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.logo {
+  margin-right: auto;
+
+  font-size: xx-large;
+
+  font-weight: 700;
+}
+.profile_pic {
+  height: 250px;
+  margin-top: 38%;
+  border-radius: 50%;
+}
+.links {
+  padding-top: 30px;
+}
+
+.links > a {
+  margin: 0px 45px;
+
+  text-decoration: none;
+}
+
+.contact_link {
+  margin-right: auto;
+}
+
+.sections {
+  width: 100vw;
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 1500px;
+
+  justify-content: space-around;
+}
+.aboutme > p,
+.skills > p {
+  margin-top: 10%;
+  text-align: center;
+}
+.aboutme {
+  background-color: aliceblue;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  word-wrap: normal;
+}
+.basic_details {
+  margin-top: 5%;
+  margin-right: 12%;
+}
+h3 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 20px;
+}
+.skills {
+  background-color: rgb(155, 197, 235);
+
+  height: 500px;
+}
+
+.projects {
+  background-color: rgb(125, 194, 255);
+
+  height: 500px;
+}
