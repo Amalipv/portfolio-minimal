@@ -1,6 +1,14 @@
 body {
   font-family: "Karla", "Source Sans Pro", sans-serif;
-
+  color: #463b52;
+  /*background-color: #e08572;
+  background-image: linear-gradient(
+    0deg,
+    #423952 0%,
+    #e08572 50%,
+    #eabbbc 100%
+  );
+*/
   margin: auto;
   letter-spacing: 1;
   overflow-x: hidden;
@@ -17,26 +25,18 @@ body {
 }
 .header {
   width: 100vw;
-
-  background-color: antiquewhite;
-
   height: 70px;
-
   display: flex;
-
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 
 .logo {
-  margin-right: auto;
-
   font-size: xx-large;
-
   font-weight: 700;
 }
 .profile_pic {
   height: 250px;
-  margin-top: 38%;
+  margin-top: 70%;
   border-radius: 50%;
   border: 20px solid #cf66b22b;
 }
@@ -46,7 +46,9 @@ body {
 
 .links > a {
   margin: 0px 45px;
-
+  color: #423952;
+  font-size: 18px;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -56,13 +58,8 @@ body {
 
 .sections {
   width: 100vw;
-
   display: flex;
-
   flex-direction: column;
-
-  height: 1500px;
-
   justify-content: space-around;
 }
 .aboutme > p,
@@ -71,14 +68,13 @@ body {
   text-align: center;
 }
 .aboutme {
-  background-color: aliceblue;
-  height: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
   word-wrap: normal;
 }
 .basic_details {
-  margin-top: 5%;
+  margin-top: 11%;
   margin-right: 12%;
 }
 h3 {
@@ -90,13 +86,27 @@ h4 {
   font-size: 20px;
 }
 .skills {
-  background-color: rgb(155, 197, 235);
-
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
 }
 
+.dev_pic {
+  margin-top: 11%;
+  margin-right: 230px;
+}
 .projects {
-  background-color: rgb(125, 194, 255);
+  height: 700px;
+}
 
-  height: 500px;
+.all_skills {
+  margin-top: 11%;
+  font-weight: 600;
+}
+.all_skills > span {
+  margin-top: 11%;
+  border: 1px solid grey;
+  margin-right: 15px;
+  padding: 6px;
+  border-radius: 7%;
 }
