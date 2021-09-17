@@ -110,3 +110,6 @@ h4 {
   padding: 6px;
   border-radius: 7%;
 }
+.sections > div {
+  border-bottom: #423952 1px dashed;
+}
