@@ -13,7 +13,14 @@ body {
   letter-spacing: 1;
   overflow-x: hidden;
 }
-
+h3 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 20px;
+}
 .container {
   padding-left: 5px;
 }
@@ -34,12 +41,7 @@ body {
   font-size: xx-large;
   font-weight: 700;
 }
-.profile_pic {
-  height: 250px;
-  margin-top: 70%;
-  border-radius: 50%;
-  border: 20px solid #cf66b22b;
-}
+
 .links {
   padding-top: 30px;
 }
@@ -62,11 +64,16 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.sections > div {
+  border-bottom: #423952 1px dashed;
+}
+
 .aboutme > p,
-.skills > p {
+/*.skills > p {
   margin-top: 10%;
   text-align: center;
-}
+}*/
 .aboutme {
   height: 700px;
   display: flex;
@@ -77,14 +84,14 @@ body {
   margin-top: 11%;
   margin-right: 12%;
 }
-h3 {
-  font-size: 38px;
-  font-weight: 600;
-  margin-bottom: 20px;
+
+.profile_pic {
+  height: 250px;
+  margin-top: 70%;
+  border-radius: 50%;
+  border: 20px solid #cf66b22b;
 }
-h4 {
-  font-size: 20px;
-}
+
 .skills {
   display: flex;
   justify-content: center;
@@ -92,24 +99,26 @@ h4 {
 }
 
 .dev_pic {
-  margin-top: 11%;
+  margin-top: 40%;
   margin-right: 230px;
-}
-.projects {
-  height: 700px;
 }
 
 .all_skills {
-  margin-top: 11%;
+  margin-top: 7%;
   font-weight: 600;
+  width: 30%;
+  line-height: 2;
 }
+
 .all_skills > span {
-  margin-top: 11%;
-  border: 1px solid grey;
-  margin-right: 15px;
-  padding: 6px;
-  border-radius: 7%;
+    display: inline-block;
+    border: 1px solid grey;
+    margin-right: 15px;
+    padding: 0px 6px;
+    border-radius: 5%;
+    margin-bottom: 20px;
 }
-.sections > div {
-  border-bottom: #423952 1px dashed;
+}
+.projects {
+  height: 700px;
 }
