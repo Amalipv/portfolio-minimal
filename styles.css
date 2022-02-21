@@ -54,6 +54,30 @@ h4 {
   text-decoration: none;
 }
 
+.hoverEffect {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+
+.hoverEffect::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #5d2ead;
+  background-image: linear-gradient(to left, #4a484e, #dcd2ee);
+  width: 0;
+  transition: width 0.25s ease-in-out;
+}
+
+.hoverEffect:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
 .contact_link {
   margin-right: auto;
 }
@@ -111,14 +135,30 @@ h4 {
 }
 
 .all_skills > span {
-    display: inline-block;
-    border: 1px solid grey;
-    margin-right: 15px;
-    padding: 0px 6px;
-    border-radius: 5%;
-    margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid grey;
+  margin-right: 15px;
+  padding: 0px 6px;
+  border-radius: 5%;
+  margin-bottom: 20px;
 }
+
+.projects > h3 {
+  margin-left: 430px;
 }
-.projects {
-  height: 700px;
+
+.project {
+  background-color: #edebf1;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(223, 209, 209, 0.2);
+  display: inline-block;
+  margin: 50px;
+  height: 350px;
+  width: 300px;
+  padding: 15px;
+}
+
+.projects div:nth-child(1) {
+  margin-left: 430px;
+  border-left: 1px solid rebeccapurple;
 }
